@@ -1,0 +1,18 @@
+; Спільний облік Олі і Марка. Банківські операції генерує import.py у transactions.beancount,
+; ручні (готівка з телефона через кнопку «+» у Fava) пишуться в manual.beancount.
+option "title" "Бюджет Олі і Марка"
+option "operating_currency" "PLN"
+plugin "beancount.plugins.auto_accounts"
+
+2026-01-01 custom "fava-option" "language" "uk"
+2026-01-01 custom "fava-option" "default-file" "manual.beancount"
+
+include "transactions.beancount"
+include "manual.beancount"
+
+; Збережені запити. Особа = другий рівень рахунку (Expenses:Марко:...).
+2026-01-01 query "1 Витрати за категоріями" "SELECT year, month, account, sum(number) AS spent WHERE account ~ '^Expenses:' GROUP BY year, month, account ORDER BY year, month, spent DESC"
+2026-01-01 query "2 Норма заощаджень" "SELECT year, month, root(account, 2) AS who, -sum(number * decimal(root(account, 1) = 'Income')) AS income, sum(number * decimal(root(account, 1) = 'Expenses')) AS expenses, -sum(number) AS saved WHERE root(account, 1) IN ('Income', 'Expenses') GROUP BY year, month, who ORDER BY year, month, who"
+2026-01-01 query "3 Фіксовані і змінні" "SELECT year, month, root(account, 2) AS who, 'fixed' IN tags AS fixed, sum(number) AS spent WHERE account ~ '^Expenses:' GROUP BY year, month, who, fixed ORDER BY year, month, who, fixed DESC"
+2026-01-01 query "4 Без категорії" "SELECT date, narration, number WHERE account ~ 'Без-Категорії' ORDER BY date"
+2026-01-01 query "5 Спільні витрати" "SELECT year, month, any_meta('payer') AS payer, sum(number) AS paid WHERE 'shared' IN tags AND account ~ '^Expenses:' GROUP BY year, month, payer ORDER BY year, month, payer"

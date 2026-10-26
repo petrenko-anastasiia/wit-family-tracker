@@ -1,0 +1,1291 @@
+; Згенеровано import.py з data/, rules.csv і shared.csv. Руками не редагувати.
+
+2026-07-31 * "Початковий залишок Оля"
+  Assets:Оля:Банк  4500.00 PLN
+  Equity:Початковий-Залишок
+
+2026-08-01 * "Rent — Mokotów flat" #fixed #shared
+  payer: "Оля"
+  other_share: "0.5"
+  Assets:Оля:Банк  -3200.00 PLN
+  Expenses:Оля:Житло  3200.00 PLN
+
+2026-08-02 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -29.35 PLN
+  Expenses:Оля:Продукти  29.35 PLN
+
+2026-08-02 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -73.78 PLN
+  Expenses:Оля:Доставка-Їжі  73.78 PLN
+
+2026-08-03 * "ZTM Warszawa — bilet 30-dniowy" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -110.00 PLN
+  Expenses:Оля:Транспорт  110.00 PLN
+
+2026-08-03 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -20.98 PLN
+  Expenses:Оля:Продукти  20.98 PLN
+
+2026-08-03 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -106.20 PLN
+  Expenses:Оля:Продукти  106.20 PLN
+
+2026-08-04 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -37.55 PLN
+  Expenses:Оля:Продукти  37.55 PLN
+
+2026-08-05 * "Netflix" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -43.00 PLN
+  Expenses:Оля:Підписки  43.00 PLN
+
+2026-08-05 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -21.37 PLN
+  Expenses:Оля:Продукти  21.37 PLN
+
+2026-08-05 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -39.88 PLN
+  Expenses:Оля:Кафе  39.88 PLN
+
+2026-08-06 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -123.48 PLN
+  Expenses:Оля:Продукти  123.48 PLN
+
+2026-08-06 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -131.81 PLN
+  Expenses:Оля:Продукти  131.81 PLN
+
+2026-08-07 * "Wolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -66.47 PLN
+  Expenses:Оля:Доставка-Їжі  66.47 PLN
+
+2026-08-08 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -15.11 PLN
+  Expenses:Оля:Продукти  15.11 PLN
+
+2026-08-09 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -67.16 PLN
+  Expenses:Оля:Продукти  67.16 PLN
+
+2026-08-09 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -27.56 PLN
+  Expenses:Оля:Кафе  27.56 PLN
+
+2026-08-09 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -36.44 PLN
+  Expenses:Оля:Транспорт  36.44 PLN
+
+2026-08-10 * "Salary — Product Co sp. z o.o."
+  payer: "Оля"
+  Assets:Оля:Банк  9800.00 PLN
+  Income:Оля:Зарплата  -9800.00 PLN
+
+2026-08-10 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -26.32 PLN
+  Expenses:Оля:Продукти  26.32 PLN
+
+2026-08-10 * "Rossmann"
+  payer: "Оля"
+  Assets:Оля:Банк  -81.50 PLN
+  Expenses:Оля:Догляд  81.50 PLN
+
+2026-08-12 * "Spotify" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -23.99 PLN
+  Expenses:Оля:Підписки  23.99 PLN
+
+2026-08-12 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -16.17 PLN
+  Expenses:Оля:Продукти  16.17 PLN
+
+2026-08-12 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -53.04 PLN
+  Expenses:Оля:Продукти  53.04 PLN
+
+2026-08-12 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -25.59 PLN
+  Expenses:Оля:Кафе  25.59 PLN
+
+2026-08-13 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -29.88 PLN
+  Expenses:Оля:Продукти  29.88 PLN
+
+2026-08-13 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -25.95 PLN
+  Expenses:Оля:Продукти  25.95 PLN
+
+2026-08-14 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -12.16 PLN
+  Expenses:Оля:Продукти  12.16 PLN
+
+2026-08-14 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -34.81 PLN
+  Expenses:Оля:Продукти  34.81 PLN
+
+2026-08-15 * "Claude.ai subscription" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -86.50 PLN
+  Expenses:Оля:Підписки  86.50 PLN
+
+2026-08-15 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -55.05 PLN
+  Expenses:Оля:Продукти  55.05 PLN
+
+2026-08-17 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -37.21 PLN
+  Expenses:Оля:Продукти  37.21 PLN
+
+2026-08-17 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -18.58 PLN
+  Expenses:Оля:Продукти  18.58 PLN
+
+2026-08-17 * "Wolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -45.46 PLN
+  Expenses:Оля:Доставка-Їжі  45.46 PLN
+
+2026-08-18 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -24.09 PLN
+  Expenses:Оля:Продукти  24.09 PLN
+
+2026-08-18 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -67.47 PLN
+  Expenses:Оля:Продукти  67.47 PLN
+
+2026-08-18 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -43.69 PLN
+  Expenses:Оля:Кафе  43.69 PLN
+
+2026-08-18 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -30.63 PLN
+  Expenses:Оля:Транспорт  30.63 PLN
+
+2026-08-19 * "Uber"
+  payer: "Оля"
+  Assets:Оля:Банк  -42.93 PLN
+  Expenses:Оля:Транспорт  42.93 PLN
+
+2026-08-20 * "Play — abonament" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -45.00 PLN
+  Expenses:Оля:Підписки  45.00 PLN
+
+2026-08-20 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -24.51 PLN
+  Expenses:Оля:Транспорт  24.51 PLN
+
+2026-08-21 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -37.51 PLN
+  Expenses:Оля:Доставка-Їжі  37.51 PLN
+
+2026-08-22 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -20.43 PLN
+  Expenses:Оля:Продукти  20.43 PLN
+
+2026-08-22 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -9.72 PLN
+  Expenses:Оля:Продукти  9.72 PLN
+
+2026-08-22 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -86.37 PLN
+  Expenses:Оля:Доставка-Їжі  86.37 PLN
+
+2026-08-23 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -43.94 PLN
+  Expenses:Оля:Кафе  43.94 PLN
+
+2026-08-24 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -16.02 PLN
+  Expenses:Оля:Продукти  16.02 PLN
+
+2026-08-24 * "Starbucks Rondo ONZ"
+  payer: "Оля"
+  Assets:Оля:Банк  -28.03 PLN
+  Expenses:Оля:Кафе  28.03 PLN
+
+2026-08-25 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -8.14 PLN
+  Expenses:Оля:Продукти  8.14 PLN
+
+2026-08-25 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -34.24 PLN
+  Expenses:Оля:Продукти  34.24 PLN
+
+2026-08-25 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -14.11 PLN
+  Expenses:Оля:Транспорт  14.11 PLN
+
+2026-08-26 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -23.94 PLN
+  Expenses:Оля:Продукти  23.94 PLN
+
+2026-08-27 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -59.17 PLN
+  Expenses:Оля:Продукти  59.17 PLN
+
+2026-08-27 * "Starbucks Rondo ONZ"
+  payer: "Оля"
+  Assets:Оля:Банк  -30.92 PLN
+  Expenses:Оля:Кафе  30.92 PLN
+
+2026-08-29 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -125.73 PLN
+  Expenses:Оля:Продукти  125.73 PLN
+
+2026-08-29 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -38.12 PLN
+  Expenses:Оля:Кафе  38.12 PLN
+
+2026-08-31 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -41.88 PLN
+  Expenses:Оля:Продукти  41.88 PLN
+
+2026-08-31 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -84.76 PLN
+  Expenses:Оля:Доставка-Їжі  84.76 PLN
+
+2026-09-01 * "Rent — Mokotów flat" #fixed #shared
+  payer: "Оля"
+  other_share: "0.5"
+  Assets:Оля:Банк  -3200.00 PLN
+  Expenses:Оля:Житло  3200.00 PLN
+
+2026-09-01 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -137.65 PLN
+  Expenses:Оля:Продукти  137.65 PLN
+
+2026-09-01 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -43.20 PLN
+  Expenses:Оля:Транспорт  43.20 PLN
+
+2026-09-02 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -45.94 PLN
+  Expenses:Оля:Продукти  45.94 PLN
+
+2026-09-02 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -130.81 PLN
+  Expenses:Оля:Продукти  130.81 PLN
+
+2026-09-02 * "Wolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -57.95 PLN
+  Expenses:Оля:Доставка-Їжі  57.95 PLN
+
+2026-09-03 * "ZTM Warszawa — bilet 30-dniowy" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -110.00 PLN
+  Expenses:Оля:Транспорт  110.00 PLN
+
+2026-09-03 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -33.08 PLN
+  Expenses:Оля:Транспорт  33.08 PLN
+
+2026-09-04 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -73.73 PLN
+  Expenses:Оля:Продукти  73.73 PLN
+
+2026-09-05 * "Netflix" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -43.00 PLN
+  Expenses:Оля:Підписки  43.00 PLN
+
+2026-09-05 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -99.57 PLN
+  Expenses:Оля:Продукти  99.57 PLN
+
+2026-09-05 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -87.33 PLN
+  Expenses:Оля:Доставка-Їжі  87.33 PLN
+
+2026-09-06 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -70.08 PLN
+  Expenses:Оля:Продукти  70.08 PLN
+
+2026-09-07 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -29.75 PLN
+  Expenses:Оля:Продукти  29.75 PLN
+
+2026-09-07 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -32.26 PLN
+  Expenses:Оля:Продукти  32.26 PLN
+
+2026-09-07 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -38.71 PLN
+  Expenses:Оля:Кафе  38.71 PLN
+
+2026-09-08 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -49.76 PLN
+  Expenses:Оля:Продукти  49.76 PLN
+
+2026-09-08 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -83.07 PLN
+  Expenses:Оля:Доставка-Їжі  83.07 PLN
+
+2026-09-09 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -15.61 PLN
+  Expenses:Оля:Продукти  15.61 PLN
+
+2026-09-09 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -45.25 PLN
+  Expenses:Оля:Транспорт  45.25 PLN
+
+2026-09-10 * "Salary — Product Co sp. z o.o."
+  payer: "Оля"
+  Assets:Оля:Банк  9800.00 PLN
+  Income:Оля:Зарплата  -9800.00 PLN
+
+2026-09-10 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -34.21 PLN
+  Expenses:Оля:Продукти  34.21 PLN
+
+2026-09-10 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -33.31 PLN
+  Expenses:Оля:Кафе  33.31 PLN
+
+2026-09-11 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -59.78 PLN
+  Expenses:Оля:Продукти  59.78 PLN
+
+2026-09-11 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -116.90 PLN
+  Expenses:Оля:Продукти  116.90 PLN
+
+2026-09-11 * "Wolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -75.71 PLN
+  Expenses:Оля:Доставка-Їжі  75.71 PLN
+
+2026-09-12 * "Spotify" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -23.99 PLN
+  Expenses:Оля:Підписки  23.99 PLN
+
+2026-09-12 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -87.76 PLN
+  Expenses:Оля:Продукти  87.76 PLN
+
+2026-09-13 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -31.95 PLN
+  Expenses:Оля:Продукти  31.95 PLN
+
+2026-09-13 * "Starbucks Rondo ONZ"
+  payer: "Оля"
+  Assets:Оля:Банк  -22.91 PLN
+  Expenses:Оля:Кафе  22.91 PLN
+
+2026-09-14 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -29.45 PLN
+  Expenses:Оля:Продукти  29.45 PLN
+
+2026-09-14 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -48.78 PLN
+  Expenses:Оля:Доставка-Їжі  48.78 PLN
+
+2026-09-15 * "Claude.ai subscription" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -86.50 PLN
+  Expenses:Оля:Підписки  86.50 PLN
+
+2026-09-15 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -25.37 PLN
+  Expenses:Оля:Продукти  25.37 PLN
+
+2026-09-16 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -56.21 PLN
+  Expenses:Оля:Продукти  56.21 PLN
+
+2026-09-17 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -28.14 PLN
+  Expenses:Оля:Продукти  28.14 PLN
+
+2026-09-17 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -31.79 PLN
+  Expenses:Оля:Продукти  31.79 PLN
+
+2026-09-18 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -31.58 PLN
+  Expenses:Оля:Продукти  31.58 PLN
+
+2026-09-18 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -76.38 PLN
+  Expenses:Оля:Продукти  76.38 PLN
+
+2026-09-19 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -64.64 PLN
+  Expenses:Оля:Продукти  64.64 PLN
+
+2026-09-20 * "Play — abonament" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -45.00 PLN
+  Expenses:Оля:Підписки  45.00 PLN
+
+2026-09-20 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -71.43 PLN
+  Expenses:Оля:Продукти  71.43 PLN
+
+2026-09-20 * "Decathlon"
+  payer: "Оля"
+  Assets:Оля:Банк  -143.18 PLN
+  Expenses:Оля:Спорт  143.18 PLN
+
+2026-09-22 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -59.87 PLN
+  Expenses:Оля:Продукти  59.87 PLN
+
+2026-09-23 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -72.96 PLN
+  Expenses:Оля:Продукти  72.96 PLN
+
+2026-09-23 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -61.44 PLN
+  Expenses:Оля:Доставка-Їжі  61.44 PLN
+
+2026-09-25 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -26.71 PLN
+  Expenses:Оля:Продукти  26.71 PLN
+
+2026-09-25 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -64.66 PLN
+  Expenses:Оля:Продукти  64.66 PLN
+
+2026-09-26 * "Starbucks Rondo ONZ"
+  payer: "Оля"
+  Assets:Оля:Банк  -14.51 PLN
+  Expenses:Оля:Кафе  14.51 PLN
+
+2026-09-27 * "Wolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -69.95 PLN
+  Expenses:Оля:Доставка-Їжі  69.95 PLN
+
+2026-09-28 * "Uber"
+  payer: "Оля"
+  Assets:Оля:Банк  -17.69 PLN
+  Expenses:Оля:Транспорт  17.69 PLN
+
+2026-09-29 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -34.28 PLN
+  Expenses:Оля:Кафе  34.28 PLN
+
+2026-09-30 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -17.12 PLN
+  Expenses:Оля:Продукти  17.12 PLN
+
+2026-10-01 * "Rent — Mokotów flat" #fixed #shared
+  payer: "Оля"
+  other_share: "0.5"
+  Assets:Оля:Банк  -3200.00 PLN
+  Expenses:Оля:Житло  3200.00 PLN
+
+2026-10-01 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -28.35 PLN
+  Expenses:Оля:Продукти  28.35 PLN
+
+2026-10-02 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -26.90 PLN
+  Expenses:Оля:Продукти  26.90 PLN
+
+2026-10-02 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -109.84 PLN
+  Expenses:Оля:Продукти  109.84 PLN
+
+2026-10-02 * "Decathlon"
+  payer: "Оля"
+  Assets:Оля:Банк  -206.61 PLN
+  Expenses:Оля:Спорт  206.61 PLN
+
+2026-10-03 * "ZTM Warszawa — bilet 30-dniowy" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -110.00 PLN
+  Expenses:Оля:Транспорт  110.00 PLN
+
+2026-10-03 * "Lidl"
+  payer: "Оля"
+  Assets:Оля:Банк  -141.55 PLN
+  Expenses:Оля:Продукти  141.55 PLN
+
+2026-10-03 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -23.67 PLN
+  Expenses:Оля:Транспорт  23.67 PLN
+
+2026-10-04 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -16.76 PLN
+  Expenses:Оля:Продукти  16.76 PLN
+
+2026-10-04 * "Bolt Food"
+  payer: "Оля"
+  Assets:Оля:Банк  -44.92 PLN
+  Expenses:Оля:Доставка-Їжі  44.92 PLN
+
+2026-10-05 * "Netflix" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -43.00 PLN
+  Expenses:Оля:Підписки  43.00 PLN
+
+2026-10-05 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -76.63 PLN
+  Expenses:Оля:Продукти  76.63 PLN
+
+2026-10-06 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -110.81 PLN
+  Expenses:Оля:Продукти  110.81 PLN
+
+2026-10-07 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -119.79 PLN
+  Expenses:Оля:Продукти  119.79 PLN
+
+2026-10-07 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -40.77 PLN
+  Expenses:Оля:Кафе  40.77 PLN
+
+2026-10-07 * "Bolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -35.66 PLN
+  Expenses:Оля:Транспорт  35.66 PLN
+
+2026-10-09 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -104.29 PLN
+  Expenses:Оля:Продукти  104.29 PLN
+
+2026-10-10 * "Salary — Product Co sp. z o.o."
+  payer: "Оля"
+  Assets:Оля:Банк  9800.00 PLN
+  Income:Оля:Зарплата  -9800.00 PLN
+
+2026-10-10 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -33.55 PLN
+  Expenses:Оля:Продукти  33.55 PLN
+
+2026-10-10 * "Starbucks Rondo ONZ"
+  payer: "Оля"
+  Assets:Оля:Банк  -24.40 PLN
+  Expenses:Оля:Кафе  24.40 PLN
+
+2026-10-11 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -34.74 PLN
+  Expenses:Оля:Продукти  34.74 PLN
+
+2026-10-11 * "Wolt"
+  payer: "Оля"
+  Assets:Оля:Банк  -41.22 PLN
+  Expenses:Оля:Доставка-Їжі  41.22 PLN
+
+2026-10-11 * "Uber"
+  payer: "Оля"
+  Assets:Оля:Банк  -38.03 PLN
+  Expenses:Оля:Транспорт  38.03 PLN
+
+2026-10-12 * "Spotify" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -23.99 PLN
+  Expenses:Оля:Підписки  23.99 PLN
+
+2026-10-12 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -21.48 PLN
+  Expenses:Оля:Продукти  21.48 PLN
+
+2026-10-12 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -28.58 PLN
+  Expenses:Оля:Продукти  28.58 PLN
+
+2026-10-12 * "Bar Mleczny Prasowy"
+  payer: "Оля"
+  Assets:Оля:Банк  -39.75 PLN
+  Expenses:Оля:Кафе  39.75 PLN
+
+2026-10-13 * "Biedronka"
+  payer: "Оля"
+  Assets:Оля:Банк  -74.48 PLN
+  Expenses:Оля:Продукти  74.48 PLN
+
+2026-10-13 * "Carrefour Express"
+  payer: "Оля"
+  Assets:Оля:Банк  -29.61 PLN
+  Expenses:Оля:Продукти  29.61 PLN
+
+2026-10-14 * "Żabka"
+  payer: "Оля"
+  Assets:Оля:Банк  -20.48 PLN
+  Expenses:Оля:Продукти  20.48 PLN
+
+2026-10-14 * "Rossmann"
+  payer: "Оля"
+  Assets:Оля:Банк  -41.69 PLN
+  Expenses:Оля:Догляд  41.69 PLN
+
+2026-10-15 * "Claude.ai subscription" #fixed
+  payer: "Оля"
+  Assets:Оля:Банк  -86.50 PLN
+  Expenses:Оля:Підписки  86.50 PLN
+
+2026-09-01 balance Assets:Оля:Банк  8596.30 PLN
+2026-10-01 balance Assets:Оля:Банк  12305.39 PLN
+2026-10-16 balance Assets:Оля:Банк  17127.34 PLN
+
+2026-07-31 * "Початковий залишок Марко"
+  Assets:Марко:Банк  2860.40 PLN
+  Equity:Початковий-Залишок
+
+2026-08-01 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -24.64 PLN
+  Expenses:Марко:Продукти  24.64 PLN
+
+2026-08-01 * "BOLT.EU/R TALLINN"
+  payer: "Марко"
+  Assets:Марко:Банк  -19.58 PLN
+  Expenses:Марко:Транспорт  19.58 PLN
+
+2026-08-02 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -35.07 PLN
+  Expenses:Марко:Транспорт  35.07 PLN
+
+2026-08-03 * "ZDROFIT KARNET MIESIĘCZNY WARSZAWA" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -159.00 PLN
+  Expenses:Марко:Спорт  159.00 PLN
+
+2026-08-03 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -226.21 PLN
+  Expenses:Марко:Продукти  226.21 PLN
+
+2026-08-04 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -181.85 PLN
+  Expenses:Марко:Продукти  181.85 PLN
+
+2026-08-06 * "GOOGLE *YOUTUBE PREMIUM" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -25.99 PLN
+  Expenses:Марко:Підписки  25.99 PLN
+
+2026-08-08 * "STEAMGAMES.COM 4259522985"
+  payer: "Марко"
+  Assets:Марко:Банк  -87.00 PLN
+  Expenses:Марко:Розваги  87.00 PLN
+
+2026-08-09 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -11.19 PLN
+  Expenses:Марко:Продукти  11.19 PLN
+
+2026-08-09 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -47.59 PLN
+  Expenses:Марко:Транспорт  47.59 PLN
+
+2026-08-09 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -66.66 PLN
+  Expenses:Марко:Доставка-Їжі  66.66 PLN
+
+2026-08-11 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -19.58 PLN
+  Expenses:Марко:Продукти  19.58 PLN
+
+2026-08-12 * "ORANGE POLSKA S.A. ŚWIATŁOWÓD" #fixed #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -79.00 PLN
+  Expenses:Марко:Звʼязок  79.00 PLN
+
+2026-08-12 * "ORANGE POLSKA S.A. ABONAMENT GSM" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -55.00 PLN
+  Expenses:Марко:Звʼязок  55.00 PLN
+
+2026-08-12 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -22.32 PLN
+  Expenses:Марко:Транспорт  22.32 PLN
+
+2026-08-14 * "AUCHAN WARSZAWA" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -258.81 PLN
+  Expenses:Марко:Продукти  258.81 PLN
+
+2026-08-15 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -39.42 PLN
+  Expenses:Марко:Транспорт  39.42 PLN
+
+2026-08-16 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -33.39 PLN
+  Expenses:Марко:Продукти  33.39 PLN
+
+2026-08-16 * "COSTA COFFEE WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -21.00 PLN
+  Expenses:Марко:Кафе  21.00 PLN
+
+2026-08-17 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -28.36 PLN
+  Expenses:Марко:Продукти  28.36 PLN
+
+2026-08-17 * "MANEKIN WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -91.38 PLN
+  Expenses:Марко:Кафе  91.38 PLN
+
+2026-08-19 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -25.63 PLN
+  Expenses:Марко:Продукти  25.63 PLN
+
+2026-08-20 * "PGE OBRÓT S.A. ENERGIA ELEKTRYCZNA" #fixed #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -142.30 PLN
+  Expenses:Марко:Комунальні  142.30 PLN
+
+2026-08-21 * "SUPER-PHARM WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -60.34 PLN
+  Expenses:Марко:Догляд  60.34 PLN
+
+2026-08-22 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -66.29 PLN
+  Expenses:Марко:Продукти  66.29 PLN
+
+2026-08-22 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -34.70 PLN
+  Expenses:Марко:Продукти  34.70 PLN
+
+2026-08-23 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -20.90 PLN
+  Expenses:Марко:Продукти  20.90 PLN
+
+2026-08-23 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -17.89 PLN
+  Expenses:Марко:Продукти  17.89 PLN
+
+2026-08-23 * "BOLT.EU/R TALLINN"
+  payer: "Марко"
+  Assets:Марко:Банк  -35.26 PLN
+  Expenses:Марко:Транспорт  35.26 PLN
+
+2026-08-23 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -94.56 PLN
+  Expenses:Марко:Доставка-Їжі  94.56 PLN
+
+2026-08-24 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -37.13 PLN
+  Expenses:Марко:Продукти  37.13 PLN
+
+2026-08-25 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -68.61 PLN
+  Expenses:Марко:Доставка-Їжі  68.61 PLN
+
+2026-08-27 * "NORTHWIND LOGISTICS SP. Z O.O. WYNAGRODZENIE 08/2026"
+  payer: "Марко"
+  Assets:Марко:Банк  7600.00 PLN
+  Income:Марко:Зарплата  -7600.00 PLN
+
+2026-08-27 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -42.17 PLN
+  Expenses:Марко:Продукти  42.17 PLN
+
+2026-08-27 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -50.33 PLN
+  Expenses:Марко:Доставка-Їжі  50.33 PLN
+
+2026-08-27 * "COSTA COFFEE WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -14.69 PLN
+  Expenses:Марко:Кафе  14.69 PLN
+
+2026-08-28 * "BOLT.EU/R TALLINN"
+  payer: "Марко"
+  Assets:Марко:Банк  -23.91 PLN
+  Expenses:Марко:Транспорт  23.91 PLN
+
+2026-08-29 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -16.43 PLN
+  Expenses:Марко:Продукти  16.43 PLN
+
+2026-08-30 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -32.68 PLN
+  Expenses:Марко:Продукти  32.68 PLN
+
+2026-09-01 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -19.54 PLN
+  Expenses:Марко:Продукти  19.54 PLN
+
+2026-09-02 * "BOLT.EU/R TALLINN"
+  payer: "Марко"
+  Assets:Марко:Банк  -28.63 PLN
+  Expenses:Марко:Транспорт  28.63 PLN
+
+2026-09-03 * "ZDROFIT KARNET MIESIĘCZNY WARSZAWA" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -159.00 PLN
+  Expenses:Марко:Спорт  159.00 PLN
+
+2026-09-03 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -36.26 PLN
+  Expenses:Марко:Продукти  36.26 PLN
+
+2026-09-05 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -14.61 PLN
+  Expenses:Марко:Продукти  14.61 PLN
+
+2026-09-06 * "GOOGLE *YOUTUBE PREMIUM" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -25.99 PLN
+  Expenses:Марко:Підписки  25.99 PLN
+
+2026-09-06 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -14.94 PLN
+  Expenses:Марко:Продукти  14.94 PLN
+
+2026-09-10 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -187.69 PLN
+  Expenses:Марко:Продукти  187.69 PLN
+
+2026-09-10 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -41.94 PLN
+  Expenses:Марко:Продукти  41.94 PLN
+
+2026-09-10 * "COSTA COFFEE WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -15.27 PLN
+  Expenses:Марко:Кафе  15.27 PLN
+
+2026-09-11 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -9.66 PLN
+  Expenses:Марко:Продукти  9.66 PLN
+
+2026-09-12 * "ORANGE POLSKA S.A. ŚWIATŁOWÓD" #fixed #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -79.00 PLN
+  Expenses:Марко:Звʼязок  79.00 PLN
+
+2026-09-12 * "ORANGE POLSKA S.A. ABONAMENT GSM" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -55.00 PLN
+  Expenses:Марко:Звʼязок  55.00 PLN
+
+2026-09-12 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -237.62 PLN
+  Expenses:Марко:Продукти  237.62 PLN
+
+2026-09-12 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -23.49 PLN
+  Expenses:Марко:Продукти  23.49 PLN
+
+2026-09-13 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -62.60 PLN
+  Expenses:Марко:Продукти  62.60 PLN
+
+2026-09-13 * "ALLEGRO.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -96.85 PLN
+  Expenses:Марко:Покупки  96.85 PLN
+
+2026-09-14 * "COSTA COFFEE WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -16.89 PLN
+  Expenses:Марко:Кафе  16.89 PLN
+
+2026-09-15 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -215.47 PLN
+  Expenses:Марко:Продукти  215.47 PLN
+
+2026-09-15 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -31.97 PLN
+  Expenses:Марко:Транспорт  31.97 PLN
+
+2026-09-15 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -94.75 PLN
+  Expenses:Марко:Доставка-Їжі  94.75 PLN
+
+2026-09-17 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -215.59 PLN
+  Expenses:Марко:Продукти  215.59 PLN
+
+2026-09-17 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -24.36 PLN
+  Expenses:Марко:Продукти  24.36 PLN
+
+2026-09-18 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -12.25 PLN
+  Expenses:Марко:Продукти  12.25 PLN
+
+2026-09-20 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -20.18 PLN
+  Expenses:Марко:Продукти  20.18 PLN
+
+2026-09-20 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -53.88 PLN
+  Expenses:Марко:Доставка-Їжі  53.88 PLN
+
+2026-09-21 * "PGE OBRÓT S.A. ENERGIA ELEKTRYCZNA" #fixed #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -138.90 PLN
+  Expenses:Марко:Комунальні  138.90 PLN
+
+2026-09-21 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -14.60 PLN
+  Expenses:Марко:Продукти  14.60 PLN
+
+2026-09-21 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -72.40 PLN
+  Expenses:Марко:Доставка-Їжі  72.40 PLN
+
+2026-09-22 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -36.46 PLN
+  Expenses:Марко:Продукти  36.46 PLN
+
+2026-09-22 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -28.77 PLN
+  Expenses:Марко:Транспорт  28.77 PLN
+
+2026-09-23 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -58.60 PLN
+  Expenses:Марко:Продукти  58.60 PLN
+
+2026-09-23 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -11.57 PLN
+  Expenses:Марко:Продукти  11.57 PLN
+
+2026-09-25 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -15.20 PLN
+  Expenses:Марко:Продукти  15.20 PLN
+
+2026-09-26 * "AUCHAN WARSZAWA" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -278.88 PLN
+  Expenses:Марко:Продукти  278.88 PLN
+
+2026-09-26 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -29.29 PLN
+  Expenses:Марко:Продукти  29.29 PLN
+
+2026-09-28 * "NORTHWIND LOGISTICS SP. Z O.O. WYNAGRODZENIE 09/2026"
+  payer: "Марко"
+  Assets:Марко:Банк  7600.00 PLN
+  Income:Марко:Зарплата  -7600.00 PLN
+
+2026-09-28 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -241.25 PLN
+  Expenses:Марко:Продукти  241.25 PLN
+
+2026-09-28 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -26.40 PLN
+  Expenses:Марко:Продукти  26.40 PLN
+
+2026-09-28 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -72.29 PLN
+  Expenses:Марко:Доставка-Їжі  72.29 PLN
+
+2026-09-30 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -51.22 PLN
+  Expenses:Марко:Продукти  51.22 PLN
+
+2026-09-30 * "COSTA COFFEE WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -21.46 PLN
+  Expenses:Марко:Кафе  21.46 PLN
+
+2026-10-01 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -32.44 PLN
+  Expenses:Марко:Продукти  32.44 PLN
+
+2026-10-03 * "ZDROFIT KARNET MIESIĘCZNY WARSZAWA" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -159.00 PLN
+  Expenses:Марко:Спорт  159.00 PLN
+
+2026-10-04 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -21.46 PLN
+  Expenses:Марко:Продукти  21.46 PLN
+
+2026-10-04 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -23.24 PLN
+  Expenses:Марко:Продукти  23.24 PLN
+
+2026-10-05 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -59.49 PLN
+  Expenses:Марко:Продукти  59.49 PLN
+
+2026-10-05 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -21.68 PLN
+  Expenses:Марко:Продукти  21.68 PLN
+
+2026-10-05 * "BOLT.EU/R TALLINN"
+  payer: "Марко"
+  Assets:Марко:Банк  -23.80 PLN
+  Expenses:Марко:Транспорт  23.80 PLN
+
+2026-10-06 * "GOOGLE *YOUTUBE PREMIUM" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -25.99 PLN
+  Expenses:Марко:Підписки  25.99 PLN
+
+2026-10-06 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -82.78 PLN
+  Expenses:Марко:Доставка-Їжі  82.78 PLN
+
+2026-10-07 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -184.86 PLN
+  Expenses:Марко:Продукти  184.86 PLN
+
+2026-10-07 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -9.46 PLN
+  Expenses:Марко:Продукти  9.46 PLN
+
+2026-10-07 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -94.71 PLN
+  Expenses:Марко:Доставка-Їжі  94.71 PLN
+
+2026-10-07 * "MANEKIN WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -108.79 PLN
+  Expenses:Марко:Кафе  108.79 PLN
+
+2026-10-07 * "ALLEGRO.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -94.05 PLN
+  Expenses:Марко:Покупки  94.05 PLN
+
+2026-10-08 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -11.53 PLN
+  Expenses:Марко:Продукти  11.53 PLN
+
+2026-10-09 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -19.82 PLN
+  Expenses:Марко:Продукти  19.82 PLN
+
+2026-10-09 * "STEAMGAMES.COM 4259522985"
+  payer: "Марко"
+  Assets:Марко:Банк  -76.28 PLN
+  Expenses:Марко:Розваги  76.28 PLN
+
+2026-10-10 * "COSTA COFFEE WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -20.85 PLN
+  Expenses:Марко:Кафе  20.85 PLN
+
+2026-10-11 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -35.71 PLN
+  Expenses:Марко:Продукти  35.71 PLN
+
+2026-10-11 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -11.01 PLN
+  Expenses:Марко:Продукти  11.01 PLN
+
+2026-10-12 * "ORANGE POLSKA S.A. ŚWIATŁOWÓD" #fixed #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -79.00 PLN
+  Expenses:Марко:Звʼязок  79.00 PLN
+
+2026-10-12 * "ORANGE POLSKA S.A. ABONAMENT GSM" #fixed
+  payer: "Марко"
+  Assets:Марко:Банк  -55.00 PLN
+  Expenses:Марко:Звʼязок  55.00 PLN
+
+2026-10-12 * "ŻABKA Z5821 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -29.68 PLN
+  Expenses:Марко:Продукти  29.68 PLN
+
+2026-10-14 * "BIEDRONKA 4417 WARSZAWA"
+  payer: "Марко"
+  Assets:Марко:Банк  -23.75 PLN
+  Expenses:Марко:Продукти  23.75 PLN
+
+2026-10-14 * "BOLT.EU/R TALLINN"
+  payer: "Марко"
+  Assets:Марко:Банк  -22.44 PLN
+  Expenses:Марко:Транспорт  22.44 PLN
+
+2026-10-15 * "KAUFLAND WARSZAWA MOKOTÓW" #shared
+  payer: "Марко"
+  other_share: "0.5"
+  Assets:Марко:Банк  -178.95 PLN
+  Expenses:Марко:Продукти  178.95 PLN
+
+2026-10-15 * "UBER *TRIP HELP.UBER.COM"
+  payer: "Марко"
+  Assets:Марко:Банк  -42.46 PLN
+  Expenses:Марко:Транспорт  42.46 PLN
+
+2026-10-15 * "PYSZNE.PL"
+  payer: "Марко"
+  Assets:Марко:Банк  -92.12 PLN
+  Expenses:Марко:Доставка-Їжі  92.12 PLN
+
+2026-09-01 balance Assets:Марко:Банк  8143.54 PLN
+2026-10-01 balance Assets:Марко:Банк  12852.82 PLN
+2026-10-16 balance Assets:Марко:Банк  11212.47 PLN
