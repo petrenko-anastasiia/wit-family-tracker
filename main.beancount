@@ -1,6 +1,6 @@
 ; Спільний облік Олі і Марка. Банківські операції генерує import.py у transactions.beancount,
 ; ручні (готівка з телефона через кнопку «+» у Fava) пишуться в manual.beancount.
-option "title" "Бюджет Олі і Марка"
+option "title" "Olya Marko Budget"
 option "operating_currency" "PLN"
 plugin "beancount.plugins.auto_accounts"
 
